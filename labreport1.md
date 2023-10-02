@@ -1,1 +1,1 @@
-[Image](cd_no_argument_screenshot.PNG)
+[Image](cd_no_argument_screenshot.png)
