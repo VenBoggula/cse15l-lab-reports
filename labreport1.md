@@ -13,4 +13,7 @@ It produces the output Hello.java because the current argument is the file Hello
 [Image](cat_noargue.png)
 It produces no output because the cat command prints out the contents within the file or folder and since there is no argument, nothing will be printed out. 
 [Image](cat_directory.png)
+It produces an output saying its a directory because the cat command lets you view the contents within a file/folder but lecture 1 is a directory so you can't really view what is inside as there is a lot of folders within it.
+[Image](cat_file.png)
+
 
