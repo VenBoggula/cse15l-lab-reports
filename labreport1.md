@@ -15,5 +15,5 @@ It produces no output because the cat command prints out the contents within the
 [Image](cat_directory.png)
 It produces an output saying its a directory because the cat command lets you view the contents within a file/folder but lecture 1 is a directory so you can't really view what is inside as there is a lot of folders within it.
 [Image](cat_file.png)
-
+it produced the output Hello, world! because that is the content within the messages file and the purpose of the cat function is to print the contents within the file/folder inputted. 
 
