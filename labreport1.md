@@ -9,4 +9,4 @@ When the command ls is run with no argument it produces lecture 1. The ls commna
 [Image](ls_directory.png)
 It produces that output because that is the files within the lecture 1 directory and the ls command prints out all the files within the current directory which is lecture 1.
 [Image](ls_file.png)
-
+It produces the output Hello.java because the current argument is the file Hello.java and the ls command prints out all the names of the files and folders within the current directory but we are already in the file Hello.java so it will print out that file. 
