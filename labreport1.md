@@ -6,4 +6,5 @@ It takes it to the lecture 1 directory because we put lecture 1 as the arguemnt,
 It produces an error because the cd command only takes you to a new directory, so if you put a file as an argument instead it results in an error. 
 [Image](ls_noargue.png)
 When the command ls is run with no argument it produces lecture 1. The ls commnand outputs the names of files and folers within the current directory so when you are in the home directory within the terminal it will produce lecture 1 as that is the only directory availabe.
+[Image](ls_directory.png)
 
