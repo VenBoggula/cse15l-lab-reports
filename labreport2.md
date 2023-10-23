@@ -1,4 +1,4 @@
-![Image](Screenshot(28).PNG)
+![Image](Screenshot (28).png)
 
 ![Image](Screenshot(29).png)
 The stringhandler and handleRequestare the methods called in my code. 
