@@ -29,6 +29,7 @@ public class LinkedListTest {
     }
 }
 ```
+![Image](labtests.png)
 
 Fix/Bug
 ```
