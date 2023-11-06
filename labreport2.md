@@ -8,6 +8,10 @@ to. The value of the handleRequest ʼs parameter is localhost:
 When I added the /add-message?s=Hello , cat command, counter command and others url is changed to
 localhost:4000/add-message?s=Hello.
 ![Image](Screenshot1.png)
+The relevant values are cat , counter , and new_param
+The url changes from localhost:4000/add-message?s=Hello to localhost:4000/add-
+message?s=How%20are%20you. cat changes from “Hello” to “Hello\nHow are you”.
+Also the counter gets incremented from 1 to 2 and new_params becomes +
 
 ![Image](Screenshot2.png)
 The stringhandler and handleRequestare the methods called in my code. 
