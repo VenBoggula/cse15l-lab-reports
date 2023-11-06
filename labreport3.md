@@ -50,4 +50,35 @@ Explaination
 
 The original last() method correctly handles the case where the list has more than one element. However, there is a bug in the case where the list has only one element. In the original implementation, the while loop inside the last() method executes incorrectly for a single-element list. Instead of directly returning the value of the only element, the loop attempts to traverse the list, causing an incorrect behavior and eventually leading to a NoSuchElementException being thrown. To fix the issue, the last() method doesn't need any changes. The problem lies in the test case for an empty list (testLastEmptyList()), where it attempts to call last() on an empty list. In this case, the NoSuchElementException is expected, and the test should pass if the exception is thrown. For a non-empty list (testLastNonEmptyList()), the test verifies that the correct last element is returned by appending elements to the list and comparing the result using assertEquals().
 
+Command Grep
+
+Example 1(Using grep to find files)
+```
+grep -r "file" ./technical
+```
+Output
+```
+./technical/file1.txt: 
+./technical/subdirectory/file2.txt
+```
+The command searches for the any "file" in all files under the ./technical directory and displays the lines containing the pattern.
+I found out about the -r option from the official grep documentation: GNU Grep Manual.
+
+Example 2(Searching for a specific type of file)
+```
+grep -r --include=*.txt./technical
+```
+Output
+```
+./technical/file1.txt
+./technical/anotherfile.txt
+```
+The command searches for the pattern "pattern" only within files with a .txt extension under the ./technical directory. The --include=*.txt option restricts the search to specific file types.
+I learned about the --include option from the Stack Overflow.
+
+Example 3(Case-Sensitive Search)
+
+
+
+
 
