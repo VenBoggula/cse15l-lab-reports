@@ -1,4 +1,18 @@
 ![Image](HelloLabReport.png)
+The handleRequest method and the main method are called
+The main method has a String parameter named args , which is used to take in the port
+number. The handleRequest method as a URI parameter named url which indexes the URL
+up until the beginning of the path.
+The value of the main method parameter is 4000 because that is the port number we set it
+to.
+The value of the handleRequest ʼs parameter is localhost:
+Some of the other relevant values include cat , counter , and new_param . cat is initialized
+to “” as that is the variable that will be used to concatenate the display message. Counter is
+initialized to 0 and new_param is initialzed to null.
+When implementing /add-message?s=Hello , cat , counter , new_param , and url are all
+changed. cat goes from “” to “Hello”. counter goes from 0 to 1. new_param goes is now
+set to the string stored in the first index of parameters. url is changed to
+localhost:4000/add-message?s=Hello.
 ![Image](Screenshot1.png)
 
 ![Image](Screenshot2.png)
