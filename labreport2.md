@@ -1,4 +1,4 @@
-![Image]
+![Image](HelloLbReport.png)
 ![Image](Screenshot1.png)
 
 ![Image](Screenshot2.png)
