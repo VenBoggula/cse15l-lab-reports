@@ -77,6 +77,29 @@ The command searches for the pattern "pattern" only within files with a .txt ext
 I learned about the --include option from the Stack Overflow.
 
 Example 3(Case-Sensitive Search)
+```
+grep -i "File" ./technical/*.txt
+```
+Output
+```
+error file not found
+```
+The command searches for the case-insensitive pattern "File" in all .txt files within the ./technical directory but there is no File, only file.
+I learned about the -i option from the man page of grep (manual): man grep.
+
+Example 4(Case Insensitive Search)
+```
+grep -i "FIle" example.txt
+```
+Output
+```
+./technical/file1.txt
+./technical/anotherfile.txt
+```
+ The command searches for the case-insensitive pattern "file" in all .txt files within the ./technical directory. It doesn't matter how I type file, it will look for those letters. 
+ I also found out about this through the grep manual. 
+
+
 
 
 
