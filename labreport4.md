@@ -27,7 +27,7 @@ keys pressed
 git clone https://github.com/ucsd-cse15l-s23/lab7
 ```
 Clone the lab7 repository
-![image](labreport4.5.png)
+![image](labreport4.6.png)
 keys pressed
 ```
 <i>, 2 backspace
