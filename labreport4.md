@@ -21,10 +21,15 @@ keys pressed
 <j> A lot of times, <ESC>, <:q! ENTER>, <x> <backspace> 4 times, <i> ssing in, <a> ing here, <:wq> ENTER, <ESC> dw, d$ 3 times, <2w>, <3e>, <5w>,<4e>, <d2w>, <dd>, <2dd>, <U>
 These are all the vim commands I learned and what I pressed during the vim tutorial. 
 
-![image](labreport4.4.png)
+![image](labreport4.5.png)
 keys pressed
 ```
 git clone https://github.com/ucsd-cse15l-s23/lab7
 ```
 Clone the lab7 repository
-
+![image](labreport4.5.png)
+keys pressed
+```
+<i>, 2 backspace
+```
+Changed index1 to index2 as specified in the instructions.
