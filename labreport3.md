@@ -29,8 +29,9 @@ public class LinkedListTest {
     }
 }
 ```
+
 ![Image](labtests.png)
-The screenshot above shows the output of running two tests to show that the code is buggy as it fails both junit tests.
+The screenshot above shows the output of running two tests to show that the code is fixed as it passed both junit tests.
 
 Original Code
 ```
