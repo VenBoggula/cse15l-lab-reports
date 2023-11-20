@@ -30,6 +30,7 @@ public class LinkedListTest {
 }
 ```
 ![Image](labtests.png)
+The screenshot above shows the output of running two tests to show that the code is buggy as it fails both junit tests.
 
 Fix/Bug
 ```
