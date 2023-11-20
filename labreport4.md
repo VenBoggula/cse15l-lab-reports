@@ -16,7 +16,9 @@ keys pressed
 echo "Timer for 20 minutes" | at now + 20 minutes
 ```
 Set a timer for 20 minutes
-![image](labreport4.1.png)
+![image](labreport4.4.png)
 keys pressed
 <j> A lot of times, <ESC>, <:q! ENTER>, <x> <backspace> 4 times, <i> ssing in, <a> ing here, <:wq> ENTER, <ESC> dw, d$ 3 times, <2w>, <3e>, <5w>,<4e>, <d2w>, <dd>, <2dd>, <U>
 These are all the vim commands I learned and what I pressed during the vim tutorial. 
+
+![image](labreport4.4.png)
