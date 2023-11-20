@@ -79,6 +79,15 @@ Output
 ./technical/file1.txt: 
 ./technical/subdirectory/file2.txt
 ```
+Example 1.1
+```
+grep -r "pattern" ./directory
+```
+Output
+```
+./directory/file1.txt: This line contains the pattern.
+./directory/subdirectory/file2.txt: Another line with the pattern.
+```
 The command searches for the any "file" in all files under the ./technical directory and displays the lines containing the pattern.
 I found out about the -r option from the official grep documentation: GNU Grep Manual.
 
@@ -90,6 +99,15 @@ Output
 ```
 ./technical/file1.txt
 ./technical/anotherfile.txt
+```
+Example 2.1
+...
+grep -r --include=*.md "keyword" ./documents
+```
+Output
+```
+./documents/report.md: The keyword is found in this Markdown file.
+./documents/notes.md: Another occurrence of the keyword.
 ```
 The command searches for the pattern "pattern" only within files with a .txt extension under the ./technical directory. The --include=*.txt option restricts the search to specific file types.
 I learned about the --include option from the Stack Overflow.
