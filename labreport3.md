@@ -79,6 +79,9 @@ Output
 ./technical/file1.txt: 
 ./technical/subdirectory/file2.txt
 ```
+The command searches for the any "file" in all files under the ./technical directory and displays the lines containing the pattern.
+I found out about the -r option from the official grep documentation: GNU Grep Manual.
+
 Example 1.1
 ```
 grep -r "pattern" ./directory
@@ -88,8 +91,7 @@ Output
 ./directory/file1.txt: This line contains the pattern.
 ./directory/subdirectory/file2.txt: Another line with the pattern.
 ```
-The command searches for the any "file" in all files under the ./technical directory and displays the lines containing the pattern.
-I found out about the -r option from the official grep documentation: GNU Grep Manual.
+This command searches for the pattern "pattern" in all files under the ./directory and its subdirectories, displaying the lines containing the pattern.
 
 Example 2(Searching for a specific type of file)
 ```
@@ -100,8 +102,11 @@ Output
 ./technical/file1.txt
 ./technical/anotherfile.txt
 ```
+The command searches for the pattern "pattern" only within files with a .txt extension under the ./technical directory. The --include=*.txt option restricts the search to specific file types.
+I learned about the --include option from the Stack Overflow.
+
 Example 2.1
-...
+```
 grep -r --include=*.md "keyword" ./documents
 ```
 Output
@@ -109,8 +114,7 @@ Output
 ./documents/report.md: The keyword is found in this Markdown file.
 ./documents/notes.md: Another occurrence of the keyword.
 ```
-The command searches for the pattern "pattern" only within files with a .txt extension under the ./technical directory. The --include=*.txt option restricts the search to specific file types.
-I learned about the --include option from the Stack Overflow.
+This command searches for the keyword "keyword" only within files with a .md extension under the ./documents directory, using the --include=*.md option to narrow down the search.
 
 Example 3(Case-Sensitive Search)
 ```
@@ -123,6 +127,16 @@ error file not found
 The command searches for the case-insensitive pattern "File" in all .txt files within the ./technical directory but there is no File, only file.
 I learned about the -i option from the man page of grep (manual): man grep.
 
+Example 3.1
+```
+grep "SearchTerm" ./case_sensitive_file.txt
+```
+Output
+```
+./case_sensitive_file.txt: This line contains SearchTerm, but not searchTerm.
+```
+This command performs a case-sensitive search for the exact pattern "SearchTerm" in the specified file. It only matches lines with the exact case.
+
 Example 4(Case Insensitive Search)
 ```
 grep -i "FIle" example.txt
@@ -134,6 +148,17 @@ Output
 ```
  The command searches for the case-insensitive pattern "file" in all .txt files within the ./technical directory. It doesn't matter how I type file, it will look for those letters. 
  I also found out about this through the grep manual. 
+
+ Example 4.1
+```
+grep -i "PATTERN" example.txt
+```
+Output
+```
+./directory/file1.txt: This line contains the pattern.
+./directory/anotherfile.txt: Another line with the Pattern.
+```
+This command searches for the case-insensitive pattern "PATTERN" in the example.txt file, ignoring the case of the letters in the search pattern.
 
 
 
