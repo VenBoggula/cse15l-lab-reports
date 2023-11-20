@@ -32,6 +32,23 @@ public class LinkedListTest {
 ![Image](labtests.png)
 The screenshot above shows the output of running two tests to show that the code is buggy as it fails both junit tests.
 
+Original Code
+```
+public int last() {
+        Node var1 = this.root;
+        if (var1 == null) {
+            throw new NoSuchElementException();
+        } else if (var1.next == null) {
+            return var1.value;
+        } else {
+            while(var1.next != null) {
+                var1 = var1.next;
+            }
+
+            return var1.value;
+        }
+    }
+```
 Fix/Bug
 ```
 public int last() {
