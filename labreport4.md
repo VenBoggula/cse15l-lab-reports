@@ -16,3 +16,5 @@ keys pressed
 echo "Timer for 20 minutes" | at now + 20 minutes
 ```
 Set a timer for 20 minutes
+![image](labreport4.1.png)
+keys pressed
