@@ -22,3 +22,9 @@ keys pressed
 These are all the vim commands I learned and what I pressed during the vim tutorial. 
 
 ![image](labreport4.4.png)
+keys pressed
+```
+git clone https://github.com/ucsd-cse15l-s23/lab7
+```
+Clone the lab7 repository
+
