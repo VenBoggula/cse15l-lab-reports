@@ -16,6 +16,7 @@ control r is the easiest way to search through a command line recursively and fa
 
 
 ![image](labreportredo2.png)
+
 Running the tests to show that they failed
 
 keys pressed
