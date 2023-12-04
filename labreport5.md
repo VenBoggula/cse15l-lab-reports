@@ -50,5 +50,20 @@ public class Main {
 ```
 My code is outputting weird stuff
 
-Staff Respomse:
-Try compiling and running the file in the terminal and then run calculateAverage.sh to only run the average function
+Staff Response:
+Try compiling and running the file in the terminal and then run calculateAverage.sh to only run the average function.
+
+Student Response:
+```
+$ ./calculateAverage.sh
+
+[4, -2, 8, %, 5, 12]
+Exception in thread "main" java.util.InputMismatchException
+    at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+    at java.base/java.util.Scanner.next(Scanner.java:1594)
+    at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+    at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+    at Main.main(Main.java:8)
+
+```
+This is what is outputted when I typed that in
