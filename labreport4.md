@@ -5,19 +5,24 @@ Keys Pressed
 ```
 <up> <enter>
 ```
-Logged into ieng6 using SSH.
-![image](labreport4.2.png)
+![image](labreportredo1.png)
+Cloning the fork of the repository from the github url
 keys pressed
 ```
-vimtutor
+<ctrl> r g <enter>
 ```
-Ran the vim tutorial
-![image](labreport4.3.png)
+control r is the easiest way to search through a command line recursively and fast in the command history
+
+
+![image](labreportredo2.png)
+Running the tests to show that they failed
 keys pressed
 ```
-echo "Timer for 20 minutes" | at now + 20 minutes
+<up><up><up><up><up><up><enter> -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
+<up><up><up><up><up><up><up><enter> -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar.0rg.junit.runner.JUnitCore
 ```
-Set a timer for 20 minutes
+The command was 6 lines up, so by hitting the up arrow 6 times, you can access it and the other command it was one above that so by hitting the up arrow 7 times you can acess it from the same position. 
+
 ![image](labreport4.4.png)
 keys pressed
 <j> A lot of times, <ESC>, <:q! ENTER>, <x> <backspace> 4 times, <i> ssing in, <a> ing here, <:wq> ENTER, <ESC> dw, d$ 3 times, <2w>, <3e>, <5w>,<4e>, <d2w>, <dd>, <2dd>, <U>
