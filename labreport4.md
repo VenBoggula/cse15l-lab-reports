@@ -1,6 +1,7 @@
 ![image](labreportredo.png)
 Logged into the server using the ieng6 account
-keys pressed 
+
+Keys Pressed 
 ```
 <up> <enter>
 ```
