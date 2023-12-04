@@ -7,6 +7,7 @@ Keys Pressed
 ```
 ![image](labreportredo1.png)
 Cloning the fork of the repository from the github url
+
 keys pressed
 ```
 <ctrl> r g <enter>
@@ -16,6 +17,7 @@ control r is the easiest way to search through a command line recursively and fa
 
 ![image](labreportredo2.png)
 Running the tests to show that they failed
+
 keys pressed
 ```
 <up><up><up><up><up><up><enter> -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
