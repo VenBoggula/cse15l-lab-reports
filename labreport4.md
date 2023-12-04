@@ -26,7 +26,14 @@ keys pressed
 ```
 The command was 6 lines up, so by hitting the up arrow 6 times, you can access it and the other command it was one above that so by hitting the up arrow 7 times you can acess it from the same position. 
 
-![image](labreport4.4.png)
+
+To access the image below you can type 
+```
+vim ListExamples.java
+```
+![image](labreportredo3.png)
+Editing the file to fix the error so that it can pass the test cases by changing index1 to index2
+
 keys pressed
 <j> A lot of times, <ESC>, <:q! ENTER>, <x> <backspace> 4 times, <i> ssing in, <a> ing here, <:wq> ENTER, <ESC> dw, d$ 3 times, <2w>, <3e>, <5w>,<4e>, <d2w>, <dd>, <2dd>, <U>
 These are all the vim commands I learned and what I pressed during the vim tutorial. 
