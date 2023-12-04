@@ -50,3 +50,5 @@ public class Main {
 ```
 My code is outputting weird stuff
 
+Staff Respomse:
+Try compiling and running the file in the terminal and then run calculateAverage.sh to only run the average function
