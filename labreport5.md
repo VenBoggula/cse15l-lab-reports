@@ -68,5 +68,15 @@ Exception in thread "main" java.util.InputMismatchException
 ```
 This is what is outputted when I typed that in
 
+
+
+
+
+
+
+
+Reflection Part 2:
+The coolest thing that I learned in the second half for this class was learning how to use vim text editor in lab
+
 Staff Reponse:
 Thank you for the screenshot is seems the reason for this error is due to the special character "%" being in the array as your code can't handle that value in the array which results in the calculateAverage function not working properly, to fix this replace this with an acutal numerical value and you should be good to go, you can make further modifications to you code so that it can handle characters that aren't integer values. 
