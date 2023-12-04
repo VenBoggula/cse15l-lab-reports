@@ -11,10 +11,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] myArray = {4, -2, 8, %, 5, 12};
-
-        System.out.println(Arrays.toString(myArray));
         double average = calculateAverage(myArray);
-        System.out.println("Average: " + average);
     }
 
     public static double calculateAverage(int[] array) {
@@ -26,6 +23,7 @@ public class Main {
     }
 }
 ```
-
+Staff Response:
+Maybe you could you try printing out the values in your array before you calculate the average? It might help both of us to understand what's going wrong. You can use the System.out.println(Arrays.toString(yourArray)); statement each calculation to see where exactly the mistake is.
 
 
