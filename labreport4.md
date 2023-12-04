@@ -35,8 +35,10 @@ vim ListExamples.java
 Editing the file to fix the error so that it can pass the test cases by changing index1 to index2
 
 keys pressed
-<j> A lot of times, <ESC>, <:q! ENTER>, <x> <backspace> 4 times, <i> ssing in, <a> ing here, <:wq> ENTER, <ESC> dw, d$ 3 times, <2w>, <3e>, <5w>,<4e>, <d2w>, <dd>, <2dd>, <U>
-These are all the vim commands I learned and what I pressed during the vim tutorial. 
+```
+vim <shift> L <tab>, tab 43 j e r 2 <shift> :wq enter
+```
+You type in vim and then the file name you want to edit because that is how you edit a file through vim text editor which in this case is ListExamples.java and the rest of the keys are the edits required to reach index1 and change it to 2 while the :wq enter saves the changes.
 
 ![image](labreport4.5.png)
 keys pressed
