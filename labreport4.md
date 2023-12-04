@@ -40,15 +40,20 @@ vim <shift> L <tab>, tab 43 j e r 2 <shift> :wq enter
 ```
 You type in vim and then the file name you want to edit because that is how you edit a file through vim text editor which in this case is ListExamples.java and the rest of the keys are the edits required to reach index1 and change it to 2 while the :wq enter saves the changes.
 
-![image](labreport4.5.png)
+![image](labreportredo4.png)
+This is to show that the tests now pass
+
 keys pressed
 ```
-git clone https://github.com/ucsd-cse15l-s23/lab7
+bash test.sh <enter>
 ```
-Clone the lab7 repository
-![image](labreport4.6.png)
+I typed out bash and the file name to run the tests to make sure the errors have been fixed. 
+
+
+![image](labreportredo5.png)
+Commiting and pushing the changes onto a github account
 keys pressed
 ```
-<i>, 2 backspace
+<ctrl> r g i t c o <enter> g i t p <enter>
 ```
-Changed index1 to index2 as specified in the instructions.
+I used control r and control p and then enter to autofill the git commit and git push commands and then I typed out "Updated Changes" as a message to push the fixes to my github account. 
