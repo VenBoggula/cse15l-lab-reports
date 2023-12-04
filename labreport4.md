@@ -1,8 +1,8 @@
 ![image](labreportredo.png)
 Logged into the server using the ieng6 account
-keys pressed '<up> <enter>'
+keys pressed 
 ```
-ssh username@ieng6
+<up> <enter>
 ```
 Logged into ieng6 using SSH.
 ![image](labreport4.2.png)
